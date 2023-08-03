@@ -1,5 +1,6 @@
 <h1>Currency Pairs </h1>
 
-<% @symbols.each do |symbol| %>
-<li><%= symbol %></li>
+<% @symbols.each do |description| %>
+<li><%= " #{description[0] }" %></li>
+
 <% end %>
